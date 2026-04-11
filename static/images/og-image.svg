@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#09111F"/>
+  <circle cx="156" cy="94" r="260" fill="#7C5CFF" fill-opacity="0.12"/>
+  <circle cx="1068" cy="72" r="210" fill="#22D3EE" fill-opacity="0.1"/>
+  <rect x="78" y="86" width="1044" height="458" rx="36" fill="#101B2E" stroke="rgba(255,255,255,0.14)"/>
+  <text x="120" y="250" fill="white" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">CheezCut</text>
+  <text x="120" y="336" fill="#C7D2FE" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">Sharp cuts. Clean motion. Content that performs.</text>
+  <rect x="120" y="394" width="330" height="68" rx="22" fill="url(#paint0_linear)"/>
+  <text x="178" y="438" fill="white" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Creative Video Studio</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="120" y1="394" x2="450" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+</svg>
