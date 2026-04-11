@@ -1,6 +1,5 @@
 # CheezCut Static Website
 
-A professional English static website for **CheezCut** — an inventor-led concept by **Amir Mobasheraghdam**.
 
 ## Positioning
 CheezCut is presented as a focused utility concept for removing the **red wax outer layer around Gouda cheese**.
