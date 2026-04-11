@@ -28,30 +28,18 @@ if ('IntersectionObserver' in window && reveals.length) {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.15 });
+  }, { threshold: 0.12 });
   reveals.forEach((item) => observer.observe(item));
 } else {
   reveals.forEach((item) => item.classList.add('is-visible'));
 }
 
-const interestForm = document.querySelector('[data-interest-form]');
-if (interestForm) {
-  interestForm.addEventListener('submit', (event) => {
+const forms = document.querySelectorAll('[data-interest-form]');
+forms.forEach((form) => {
+  form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const formData = new FormData(interestForm);
-    const name = formData.get('name') || '';
-    const company = formData.get('company') || '';
-    const email = formData.get('email') || '';
-    const message = formData.get('message') || '';
-    const subject = encodeURIComponent('CheezCut concept inquiry');
-    const body = encodeURIComponent(
-      `Name: ${name}
-Company: ${company}
-Email: ${email}
-
-Message:
-${message}`
-    );
-    window.location.href = `mailto:hello@cheezcut.com?subject=${subject}&body=${body}`;
+    const note = form.querySelector('[data-form-note]');
+    if (note) note.textContent = form.getAttribute('data-success') || 'Thanks. Your message has been noted.';
+    form.reset();
   });
-}
+});
