@@ -1,36 +1,38 @@
 # CheezCut Static Website
 
-Professional static website for **CheezCut**, an invention concept by **Amir Mobasheraghdam**.
+A professional English static website for **CheezCut** — an inventor-led concept by **Amir Mobasheraghdam**.
 
-## Included
-- Multi-page static website
-- Responsive HTML / CSS / JS
-- SVG visual assets
-- `render.yaml` for Render deployment
-- `robots.txt` and `sitemap.xml`
+## Positioning
+CheezCut is presented as a focused utility concept for removing the **red wax outer layer around Gouda cheese**.
+It is **not** positioned as:
+- a cheese slicer
+- a cheese cutting tool
+- a general plastic package opener
+- a large industrial machine
 
-## Pages
+## Included pages
 - `index.html`
 - `about.html`
 - `concept.html`
+- `visuals.html`
 - `contact.html`
 - `privacy.html`
 - `terms.html`
 - `404.html`
 
-## Important edits before publishing
-1. Replace `hello@cheezcut.com` with your real email address.
-2. Replace any placeholder legal text in `privacy.html` and `terms.html`.
-3. Add your real photos, prototype renders, or product images in `static/images/` if available.
-4. If you want, add analytics or a real contact form service later.
+## Images included
+The supplied renders are already placed inside `static/images/` and used across the pages:
+- `cheezcut-hero.png`
+- `cheezcut-transparent.png`
+- `cheezcut-layered-concept.png`
 
 ## Deploy to Render
-1. Upload the whole project to your GitHub repository.
-2. Create a new **Static Site** in Render.
-3. Connect the repository.
-4. Keep the publish path as the project root.
-5. Deploy.
+Use a **Static Site**.
+- Publish Directory: `./`
+- Environment Variables: leave empty
+- Build Command: leave empty
 
-## Notes
-- This website clearly states that the product is **not currently for sale**.
-- The contact form uses `mailto:` so it works on a static site without a backend.
+## Notes before public launch
+- Replace `hello@cheezcut.com` with your real email address.
+- Update privacy/terms text if you want a formal legal version.
+- If you later build a real prototype or start commercial discussions, add your final contact details and company information.

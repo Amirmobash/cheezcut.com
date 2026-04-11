@@ -1,12 +1,13 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="630" fill="#081018"/>
-<circle cx="1040" cy="78" r="190" fill="#FFD34D" fill-opacity="0.12"/>
+<rect width="1200" height="630" rx="40" fill="#081018"/>
+<circle cx="1030" cy="112" r="180" fill="#E63946" fill-opacity="0.18"/>
+<circle cx="170" cy="510" r="220" fill="#F6C24A" fill-opacity="0.12"/>
 <rect x="70" y="70" width="1060" height="490" rx="34" fill="#0F1A24" stroke="rgba(255,255,255,0.08)"/>
-<path d="M130 320C130 243.232 192.232 181 269 181H423C375 219 347 262 347 320C347 378 375 421 423 459H269C192.232 459 130 396.768 130 320Z" fill="#FFD34D"/>
-<path d="M494 221C569 249 629 298 676 362C693 385 727 392 753 379L858 327C880 316 906 325 917 346C928 367 924 393 907 408L826 481" stroke="#F5F8FB" stroke-width="22" stroke-linecap="round"/>
-<text x="580" y="255" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">CheezCut</text>
-<text x="580" y="330" fill="#D6E1EA" font-family="Inter, Arial, sans-serif" font-size="34">A smarter way to open pizza cheese packaging</text>
-<text x="580" y="384" fill="#D6E1EA" font-family="Inter, Arial, sans-serif" font-size="28">Invented by Amir Mobasheraghdam</text>
-<rect x="580" y="434" width="258" height="60" rx="30" fill="rgba(255,211,77,0.16)" stroke="rgba(255,211,77,0.26)"/>
-<text x="620" y="473" fill="#FFF3C5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Not for sale yet</text>
+<path d="M130 320C130 243.232 192.232 181 269 181H423C375 219 347 262 347 320C347 378 375 421 423 459H269C192.232 459 130 396.768 130 320Z" fill="#F6C24A"/>
+<path d="M492 221C567 249 627 298 674 362C691 385 725 392 751 379L856 327C878 316 904 325 915 346C926 367 922 393 905 408L824 481" stroke="#F5F8FB" stroke-width="22" stroke-linecap="round"/>
+<text x="575" y="250" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">CheezCut</text>
+<text x="575" y="326" fill="#D6E1EA" font-family="Inter, Arial, sans-serif" font-size="33">A focused utility concept for removing the red wax rind from Gouda.</text>
+<text x="575" y="385" fill="#D6E1EA" font-family="Inter, Arial, sans-serif" font-size="29">Inventor-led concept by Amir Mobasheraghdam</text>
+<rect x="575" y="432" width="275" height="62" rx="31" fill="rgba(246,194,74,0.16)" stroke="rgba(246,194,74,0.26)"/>
+<text x="619" y="472" fill="#FFF3C5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Concept stage · Not for sale</text>
 </svg>

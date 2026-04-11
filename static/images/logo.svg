@@ -1,9 +1,6 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="256" height="256" rx="64" fill="#081018"/>
-<path d="M56 128C56 88.2355 88.2355 56 128 56H200C176 76.5 162 99.5 162 128C162 156.5 176 179.5 200 200H128C88.2355 200 56 167.764 56 128Z" fill="#FFD34D"/>
-<path d="M182 84L206 108L182 132" stroke="#081018" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M170 128H108" stroke="#081018" stroke-width="18" stroke-linecap="round"/>
-<circle cx="112" cy="101" r="7" fill="#081018"/>
-<circle cx="98" cy="127" r="7" fill="#081018"/>
-<circle cx="120" cy="147" r="7" fill="#081018"/>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="128" height="128" rx="28" fill="#0B141D"/>
+<path d="M24 64C24 41.9086 41.9086 24 64 24H94C80.5 33.5 72 46.5 72 64C72 81.5 80.5 94.5 94 104H64C41.9086 104 24 86.0914 24 64Z" fill="#F6C24A"/>
+<path d="M77 38C95 44 109 57 118 75C120 79 118 84 114 86L99 95C95 97 90 95 88 91C82 79 75 70 67 64" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+<path d="M38 35C28 43 22 53 22 64C22 75 28 85 38 93" stroke="#E63846" stroke-width="8" stroke-linecap="round"/>
 </svg>
