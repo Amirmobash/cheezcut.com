@@ -1,13 +1,9 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="630" rx="36" fill="#0b1015"/>
-<circle cx="165" cy="470" r="220" fill="#F7C95C" fill-opacity="0.08"/>
-<circle cx="1000" cy="130" r="170" fill="#E53946" fill-opacity="0.12"/>
-<rect x="72" y="72" width="1056" height="486" rx="28" fill="#121a22" stroke="rgba(255,255,255,0.08)"/>
-<path d="M128 319C128 242 190 180 267 180H416C369 219 342 262 342 319C342 376 369 419 416 458H267C190 458 128 396 128 319Z" fill="#F7C95C"/>
-<path d="M495 218C566 248 625 296 674 360C690 381 722 389 746 377L850 326C871 316 896 323 909 343C922 363 919 388 903 404L827 479" stroke="#F4F7FA" stroke-width="21" stroke-linecap="round"/>
-<text x="565" y="248" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">CheezCut</text>
-<text x="565" y="324" fill="#D8E1E8" font-family="Inter, Arial, sans-serif" font-size="31">A focused utility concept for removing the red wax rind from Gouda.</text>
-<text x="565" y="384" fill="#D8E1E8" font-family="Inter, Arial, sans-serif" font-size="28">Inventor-led concept by Amir Mobasheraghdam</text>
-<rect x="565" y="432" width="315" height="62" rx="31" fill="rgba(247,201,92,0.15)" stroke="rgba(247,201,92,0.25)"/>
-<text x="605" y="472" fill="#FFF1C2" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Concept stage · Not for sale</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#FFF7E5"/>
+<rect x="60" y="60" width="1080" height="510" rx="44" fill="#fff" stroke="#D83A34" stroke-width="6"/>
+<text x="100" y="210" font-family="Arial, sans-serif" font-size="96" font-weight="700" fill="#0F1720">CheezCut</text>
+<text x="100" y="300" font-family="Arial, sans-serif" font-size="42" fill="#6A5B45">Gouda wax rind removal concept</text>
+<text x="100" y="380" font-family="Arial, sans-serif" font-size="30" fill="#6A5B45">Inventor-led concept by Amir Mobasheraghdam</text>
+<circle cx="1000" cy="190" r="80" fill="#D83A34"/>
+<circle cx="940" cy="290" r="50" fill="#F0C45C"/>
 </svg>
