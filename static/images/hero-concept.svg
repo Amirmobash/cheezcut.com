@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="900" rx="40" fill="#09131C"/>
+<rect x="85" y="80" width="1030" height="740" rx="30" fill="#0E1A24" stroke="rgba(255,255,255,0.08)"/>
+<ellipse cx="370" cy="450" rx="190" ry="190" fill="#FFD34D"/>
+<path d="M220 450C220 367.157 287.157 300 370 300H565C515 342 485 391 485 450C485 509 515 558 565 600H370C287.157 600 220 532.843 220 450Z" fill="#FFE082"/>
+<path d="M600 280C660 300 715 345 760 405C778 429 812 437 839 423L960 360C979 350 1003 356 1014 373C1026 392 1023 419 1008 436L915 541C896 562 898 595 920 611L996 667C1019 684 1022 716 1003 736C989 751 966 755 948 746L801 674C772 660 738 667 717 692C680 735 630 770 565 792" stroke="#F6FAFD" stroke-width="26" stroke-linecap="round"/>
+<circle cx="318" cy="393" r="14" fill="#09131C"/>
+<circle cx="292" cy="454" r="14" fill="#09131C"/>
+<circle cx="356" cy="518" r="14" fill="#09131C"/>
+<path d="M714 210L894 210" stroke="rgba(255,255,255,0.16)" stroke-width="12" stroke-linecap="round"/>
+<path d="M744 250L1014 250" stroke="rgba(255,255,255,0.16)" stroke-width="12" stroke-linecap="round"/>
+<path d="M744 290L946 290" stroke="rgba(255,255,255,0.16)" stroke-width="12" stroke-linecap="round"/>
+<rect x="720" y="484" width="270" height="150" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.09)"/>
+<text x="752" y="540" fill="#F3F8FC" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">No knife needed</text>
+<text x="752" y="592" fill="#CDD8E1" font-family="Inter, Arial, sans-serif" font-size="26">A simpler way to open</text>
+<text x="752" y="626" fill="#CDD8E1" font-family="Inter, Arial, sans-serif" font-size="26">pizza cheese packaging</text>
+</svg>

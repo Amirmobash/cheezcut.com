@@ -1,49 +1,36 @@
 # CheezCut Static Website
 
-A fully static HTML/CSS/JS starter website for `cheezcut.com`.
+Professional static website for **CheezCut**, an invention concept by **Amir Mobasheraghdam**.
 
-## Project structure
+## Included
+- Multi-page static website
+- Responsive HTML / CSS / JS
+- SVG visual assets
+- `render.yaml` for Render deployment
+- `robots.txt` and `sitemap.xml`
 
-```bash
-cheezcut-site/
-├── 404.html
-├── index.html
-├── README.md
-├── render.yaml
-├── robots.txt
-├── sitemap.xml
-└── static/
-    ├── css/
-    │   └── style.css
-    ├── fonts/
-    ├── images/
-    │   ├── favicon.svg
-    │   ├── hero-visual.svg
-    │   ├── logo.svg
-    │   └── og-image.svg
-    └── js/
-        └── main.js
-```
+## Pages
+- `index.html`
+- `about.html`
+- `concept.html`
+- `contact.html`
+- `privacy.html`
+- `terms.html`
+- `404.html`
 
-## Deploy on Render
+## Important edits before publishing
+1. Replace `hello@cheezcut.com` with your real email address.
+2. Replace any placeholder legal text in `privacy.html` and `terms.html`.
+3. Add your real photos, prototype renders, or product images in `static/images/` if available.
+4. If you want, add analytics or a real contact form service later.
 
-1. Create a new GitHub repository.
-2. Upload all files from this folder.
-3. Go to Render and create a **Static Site**.
-4. Connect your GitHub repository.
-5. Keep the publish path as the project root (`.`).
-6. If Render detects `render.yaml`, the static configuration is applied automatically.
-7. Add your custom domain `cheezcut.com` in Render dashboard.
-
-## Before going live
-
-- Replace placeholder contact details in `index.html`
-- Replace SVG placeholder images in `static/images/`
-- Update metadata and social preview text
-- Update `sitemap.xml` if you add more pages
+## Deploy to Render
+1. Upload the whole project to your GitHub repository.
+2. Create a new **Static Site** in Render.
+3. Connect the repository.
+4. Keep the publish path as the project root.
+5. Deploy.
 
 ## Notes
-
-- No build step required
-- No framework required
-- Lightweight and fast
+- This website clearly states that the product is **not currently for sale**.
+- The contact form uses `mailto:` so it works on a static site without a backend.

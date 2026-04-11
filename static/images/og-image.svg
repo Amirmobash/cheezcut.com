@@ -1,16 +1,12 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#09111F"/>
-  <circle cx="156" cy="94" r="260" fill="#7C5CFF" fill-opacity="0.12"/>
-  <circle cx="1068" cy="72" r="210" fill="#22D3EE" fill-opacity="0.1"/>
-  <rect x="78" y="86" width="1044" height="458" rx="36" fill="#101B2E" stroke="rgba(255,255,255,0.14)"/>
-  <text x="120" y="250" fill="white" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">CheezCut</text>
-  <text x="120" y="336" fill="#C7D2FE" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">Sharp cuts. Clean motion. Content that performs.</text>
-  <rect x="120" y="394" width="330" height="68" rx="22" fill="url(#paint0_linear)"/>
-  <text x="178" y="438" fill="white" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Creative Video Studio</text>
-  <defs>
-    <linearGradient id="paint0_linear" x1="120" y1="394" x2="450" y2="462" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C5CFF"/>
-      <stop offset="1" stop-color="#22D3EE"/>
-    </linearGradient>
-  </defs>
+<rect width="1200" height="630" fill="#081018"/>
+<circle cx="1040" cy="78" r="190" fill="#FFD34D" fill-opacity="0.12"/>
+<rect x="70" y="70" width="1060" height="490" rx="34" fill="#0F1A24" stroke="rgba(255,255,255,0.08)"/>
+<path d="M130 320C130 243.232 192.232 181 269 181H423C375 219 347 262 347 320C347 378 375 421 423 459H269C192.232 459 130 396.768 130 320Z" fill="#FFD34D"/>
+<path d="M494 221C569 249 629 298 676 362C693 385 727 392 753 379L858 327C880 316 906 325 917 346C928 367 924 393 907 408L826 481" stroke="#F5F8FB" stroke-width="22" stroke-linecap="round"/>
+<text x="580" y="255" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">CheezCut</text>
+<text x="580" y="330" fill="#D6E1EA" font-family="Inter, Arial, sans-serif" font-size="34">A smarter way to open pizza cheese packaging</text>
+<text x="580" y="384" fill="#D6E1EA" font-family="Inter, Arial, sans-serif" font-size="28">Invented by Amir Mobasheraghdam</text>
+<rect x="580" y="434" width="258" height="60" rx="30" fill="rgba(255,211,77,0.16)" stroke="rgba(255,211,77,0.26)"/>
+<text x="620" y="473" fill="#FFF3C5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Not for sale yet</text>
 </svg>
