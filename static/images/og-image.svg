@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#FFF7E5"/>
-<rect x="60" y="60" width="1080" height="510" rx="44" fill="#fff" stroke="#D83A34" stroke-width="6"/>
-<text x="100" y="210" font-family="Arial, sans-serif" font-size="96" font-weight="700" fill="#0F1720">CheezCut</text>
-<text x="100" y="300" font-family="Arial, sans-serif" font-size="42" fill="#6A5B45">Gouda wax rind removal concept</text>
-<text x="100" y="380" font-family="Arial, sans-serif" font-size="30" fill="#6A5B45">Inventor-led concept by Amir Mobasheraghdam</text>
-<circle cx="1000" cy="190" r="80" fill="#D83A34"/>
-<circle cx="940" cy="290" r="50" fill="#F0C45C"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+<rect width="1200" height="630" fill="#FFF7E6"/>
+<rect x="44" y="44" width="1112" height="542" rx="40" fill="#FFFDF8" stroke="#E8C160" stroke-width="2"/>
+<circle cx="1060" cy="120" r="180" fill="#F7D983" fill-opacity="0.35"/>
+<circle cx="128" cy="510" r="200" fill="#E24B3C" fill-opacity="0.15"/>
+<text x="90" y="220" fill="#991F1D" font-family="Arial, sans-serif" font-size="44" font-weight="700">CheezCut</text>
+<text x="90" y="300" fill="#1D160F" font-family="Arial, sans-serif" font-size="74" font-weight="800">Gouda Wax Rind</text>
+<text x="90" y="382" fill="#1D160F" font-family="Arial, sans-serif" font-size="74" font-weight="800">Removal Concept</text>
+<text x="90" y="460" fill="#6B5848" font-family="Arial, sans-serif" font-size="30">Inventor-led project by Amir Mobasheraghdam · Concept stage · Not for sale</text>
 </svg>

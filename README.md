@@ -1,4 +1,4 @@
-# CheezCut Website Package / Website-Paket
+# CheezCut Website Package / CheezCut Website-Paket
 
 ## English
 
@@ -6,20 +6,29 @@ This package contains a complete static website for **CheezCut** in **English an
 
 ### Positioning
 CheezCut is presented as an **inventor-led concept** by **Amir Mobasheraghdam**.
-It is designed for **removing the red outer wax rind around Gouda cheese**.
+Its purpose is very specific: **removing the red wax rind around Gouda cheese**.
 It is **not** positioned as:
 - a cheese slicer
-- a cheese-cutting tool for the cheese body itself
+- a cutter for the cheese body itself
 - a sandwich-cheese product
 - a shredded-cheese tool
-- an ordinary plastic-packaging opener
+- an opener for ordinary plastic packaging
 
-### Included pages
+### Founder / inventor page
+This rebuild includes a dedicated **Inventor** page in both languages:
+- `inventor.html`
+- `de/inventor.html`
+
+The founder copy was intentionally written without naming a current employer or current workplace.
+It presents Amir Mobasheraghdam in an engineering-led way, focused on design, automation, prototyping, and concept development.
+
+### Pages included
 English root pages:
 - `index.html`
 - `about.html`
 - `concept.html`
 - `visuals.html`
+- `inventor.html`
 - `contact.html`
 - `privacy.html`
 - `terms.html`
@@ -30,6 +39,7 @@ German pages:
 - `de/about.html`
 - `de/concept.html`
 - `de/visuals.html`
+- `de/inventor.html`
 - `de/contact.html`
 - `de/privacy.html`
 - `de/terms.html`
@@ -42,7 +52,7 @@ The supplied images are included in:
 - `static/images/cheezcut-concept-layered.png`
 
 ### Visual direction / exclusions
-The website copy and image direction are intentionally aligned against these misleading associations:
+The site copy and image framing are intentionally aligned against these misleading associations:
 - sliced cheese
 - sandwich cheese
 - cheese layers with red coating
@@ -59,25 +69,35 @@ The website copy and image direction are intentionally aligned against these mis
 - dark background
 - toy-like object
 - distorted cheese
-- text
+- text overlays
 - watermark
 - logo overlay
 
-### Design update
-This rebuild uses a **Gouda-inspired visual theme**:
+### Design direction
+This version uses a **Gouda-inspired premium theme**:
 - warm cream background
 - Gouda-gold accents
 - red wax borders and highlights
-- lighter premium presentation for product storytelling
+- cleaner, brighter product presentation
 
-### Deploy on Render
+### Render deployment
 - Service type: **Static Site**
 - Publish Directory: `./`
 - Build Command: leave blank
 - Environment Variables: leave blank
 
+### Deploy steps
+1. Extract the ZIP file.
+2. Upload the full folder contents to your GitHub repository.
+3. In Render, deploy the latest commit.
+4. Check that these pages load:
+   - `/index.html`
+   - `/visuals.html`
+   - `/inventor.html`
+   - `/de/index.html`
+
 ### Before publishing publicly
-Replace placeholder contact details, and review legal/privacy text for your jurisdiction.
+Replace any placeholder contact method if needed, and review legal/privacy text for your jurisdiction.
 
 ---
 
@@ -86,8 +106,8 @@ Replace placeholder contact details, and review legal/privacy text for your juri
 Dieses Paket enthält eine vollständige statische Website für **CheezCut** in **Englisch und Deutsch**.
 
 ### Positionierung
-CheezCut wird als **inventor-led concept** von **Amir Mobasheraghdam** dargestellt.
-Der Fokus liegt auf dem **Entfernen der roten äußeren Wachsschicht rund um Gouda**.
+CheezCut wird als **inventor-led concept** von **Amir Mobasheraghdam** präsentiert.
+Der Zweck ist sehr klar: **das Entfernen der roten Wachsschicht rund um Gouda**.
 Es ist **nicht** positioniert als:
 - Käse-Slicer
 - Schneidwerkzeug für den Käsekörper selbst
@@ -95,12 +115,21 @@ Es ist **nicht** positioniert als:
 - Tool für geriebenen Käse
 - Öffner für gewöhnliche Kunststoffverpackungen
 
+### Gründer- / Erfinder-Seite
+Dieser Neuaufbau enthält eine eigene **Erfinder**-Seite in beiden Sprachen:
+- `inventor.html`
+- `de/inventor.html`
+
+Der Text wurde bewusst so geschrieben, dass kein aktueller Arbeitgeber und kein aktueller Arbeitsort genannt werden.
+Die Darstellung von Amir Mobasheraghdam bleibt engineering-led und konzentriert sich auf Design, Automation, Prototyping und Konzeptentwicklung.
+
 ### Enthaltene Seiten
 Englische Seiten im Root:
 - `index.html`
 - `about.html`
 - `concept.html`
 - `visuals.html`
+- `inventor.html`
 - `contact.html`
 - `privacy.html`
 - `terms.html`
@@ -111,6 +140,7 @@ Deutsche Seiten:
 - `de/about.html`
 - `de/concept.html`
 - `de/visuals.html`
+- `de/inventor.html`
 - `de/contact.html`
 - `de/privacy.html`
 - `de/terms.html`
@@ -123,7 +153,7 @@ Die gelieferten Bilder liegen in:
 - `static/images/cheezcut-concept-layered.png`
 
 ### Bildrichtung / Ausschlüsse
-Die Website-Texte und die Bildsprache sind bewusst gegen folgende Fehlinterpretationen ausgerichtet:
+Texte und Bildsprache sind bewusst gegen folgende Fehlassoziationen ausgerichtet:
 - sliced cheese
 - sandwich cheese
 - cheese layers with red coating
@@ -140,22 +170,32 @@ Die Website-Texte und die Bildsprache sind bewusst gegen folgende Fehlinterpreta
 - dark background
 - toy-like object
 - distorted cheese
-- text
-- watermark
-- logo overlay
+- Text-Overlays
+- Watermark
+- Logo-Overlay
 
-### Design-Update
-Dieser Neuaufbau nutzt ein **Gouda-inspiriertes Theme**:
+### Designrichtung
+Diese Version nutzt ein **Gouda-inspiriertes Premium-Theme**:
 - warmer Creme-Hintergrund
 - Gouda-goldene Akzente
-- rote Wachs-Rahmen und Highlights
-- hellere, hochwertigere Produktpräsentation
+- rote Wachsrahmen und Highlights
+- klarere, hellere Produktdarstellung
 
-### Deployment auf Render
+### Render-Deployment
 - Service-Typ: **Static Site**
 - Publish Directory: `./`
 - Build Command: leer lassen
 - Environment Variables: leer lassen
 
+### Deployment-Schritte
+1. ZIP-Datei entpacken.
+2. Den kompletten Ordnerinhalt in das GitHub-Repository hochladen.
+3. In Render den neuesten Commit deployen.
+4. Prüfen, ob diese Seiten laden:
+   - `/index.html`
+   - `/visuals.html`
+   - `/inventor.html`
+   - `/de/index.html`
+
 ### Vor der öffentlichen Veröffentlichung
-Platzhalter-Kontaktdaten ersetzen und Datenschutz-/Rechtstexte für die jeweilige Rechtslage prüfen.
+Falls nötig Kontaktangaben anpassen und die Datenschutz-/Rechtstexte für die eigene Rechtslage prüfen.
