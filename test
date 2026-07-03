@@ -1,86 +1,126 @@
-باشه، فقط اسم پایه‌ها و اتصال لازم:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheezCut Visuals | Product Renders and Concept Images</title>
+    <meta name="description" content="A visual overview of the CheezCut concept using the supplied product renders." />
+    <meta name="theme-color" content="#fff4de" />
+    <meta property="og:title" content="CheezCut Visuals | Product Renders and Concept Images" />
+    <meta property="og:description" content="A visual overview of the CheezCut concept using the supplied product renders." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="static/images/og-image.svg" />
+    <meta property="og:url" content="https://cheezcut.com/visuals.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CheezCut Visuals | Product Renders and Concept Images" />
+    <meta name="twitter:description" content="A visual overview of the CheezCut concept using the supplied product renders." />
+    <meta name="twitter:image" content="static/images/og-image.svg" />
+    <link rel="canonical" href="https://cheezcut.com/visuals.html" />
+    <link rel="icon" type="image/svg+xml" href="static/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
 
-1) RFID Reader 3Pin 125kHz UART
+      <header class="header">
+        <div class="container nav">
+          <a href="index.html" class="brand" aria-label="CheezCut Home">
+            <img src="static/images/logo.svg" alt="CheezCut logo" />
+            <span>CheezCut</span>
+          </a>
+          <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="nav-links">
+            <a href="index.html" class="">Home</a>
+<a href="about.html" class="">About</a>
+<a href="concept.html" class="">Concept</a>
+<a href="visuals.html" class="active">Visuals</a>
+<a href="inventor.html" class="">Inventor</a>
+<a href="contact.html" class="">Contact</a>
+          </nav>
+          <div class="nav-right">
+            <a class="lang-switch" href="de/visuals.html">DE</a>
+          </div>
+        </div>
+      </header>
+      <main id="main-content">
 
-اسم سیم‌ها:
+<section class="page-hero">
+  <div class="container reveal">
+    <div class="crumbs"><a href="index.html">Home</a> / Visuals</div>
+    <span class="kicker">Visual library</span>
+    <h1>Three concept renders, one clear product story.</h1>
+    <p class="lead">These visuals support the same positioning throughout the site: CheezCut is a Gouda wax-rind removal concept, not a cheese slicer and not a packaging opener.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container gallery reveal">
+    <figure class="gallery-card span-7">
+      <img src="static/images/cheezcut-hero-light.png" alt="Hero render of CheezCut engaging the red wax rind around Gouda" />
+      <figcaption>Main hero render showing the concept in a bright, premium product-photography style.</figcaption>
+    </figure>
+    <figure class="gallery-card span-5">
+      <img class="contain" src="static/images/cheezcut-render-transparent.png" alt="Transparent render of CheezCut and Gouda block" />
+      <figcaption>Cutout-style render useful for product framing, presentations, and isolated placement.</figcaption>
+    </figure>
+    <figure class="gallery-card span-6">
+      <img src="static/images/cheezcut-concept-layered.png" alt="Exploratory layered concept image for CheezCut" />
+      <figcaption>Exploratory concept study used here as a visual accent rather than a literal representation of usage.</figcaption>
+    </figure>
+    <figure class="gallery-card span-6">
+      <div class="highlight-box">
+        <h3>Image direction</h3>
+        <p class="muted">The visual system intentionally avoids dark kitchen clutter, hands, knives, wrapper-bag language, cartoon treatment, watermarking, or generic sandwich-cheese positioning.</p>
+        <div class="chip-row">
+          <span class="chip">clean background</span>
+          <span class="chip">bright premium feel</span>
+          <span class="chip">tool-led interaction</span>
+          <span class="chip">Gouda-specific story</span>
+        </div>
+      </div>
+    </figure>
+  </div>
+</section>
 
-قرمز  = VCC
-مشکی  = GND
-سبز   = TX / DATA
+      </main>
 
-وصل کن:
-
-قرمز RFID  →  3.3V یا 5V برد
-مشکی RFID  →  GND
-سبز RFID   →  GPIO17
-
-برای پروژه ما:
-
-RFID TX سبز → GPIO17
-
-⸻
-
-2) MOSFET Module 5V-36V
-
-این ماژول معمولاً این پایه‌ها را دارد:
-
-سمت کنترل، سوراخ‌های کوچک:
-
-PWM / SIG / IN  = فرمان از ESP32
-GND             = منفی مشترک
-VCC             = تغذیه کنترل، معمولاً 3.3V یا 5V
-
-برای پروژه ما:
-
-ماژول MOSFET اول، باز کردن قفل
-
-PWM / IN  → GPIO6
-GND       → GND ESP32
-VCC       → 3.3V ESP32
-
-پیچ‌های آبی خروجی:
-
-VIN+ / DC+  → +24V
-VIN- / DC-  → -24V / GND منبع
-OUT+        → سیم مثبت قفل، اگر روی ماژول دارد
-OUT-        → سیم منفی باز قفل
-
-⸻
-
-ماژول MOSFET دوم، بستن قفل
-
-PWM / IN  → GPIO7
-GND       → GND ESP32
-VCC       → 3.3V ESP32
-
-پیچ‌های آبی خروجی:
-
-VIN+ / DC+  → +24V
-VIN- / DC-  → -24V / GND منبع
-OUT+        → سیم مثبت قفل، اگر روی ماژول دارد
-OUT-        → سیم منفی بستن قفل
-
-⸻
-
-خلاصه خیلی کوتاه
-
-RFID قرمز → 3.3V
-RFID مشکی → GND
-RFID سبز  → GPIO17
-MOSFET باز:
-IN/PWM → GPIO6
-VCC    → 3.3V
-GND    → GND
-MOSFET بسته:
-IN/PWM → GPIO7
-VCC    → 3.3V
-GND    → GND
-
-خیلی مهم:
-
-GND ESP32
-GND MOSFET
--24V منبع
-همه به هم وصل شوند.
-
-روی ماژول MOSFET اگر دقیقاً نوشته‌های کنار پایه‌ها را عکس نزدیک بفرستی، دقیقاً می‌گویم کدام سوراخ PWM، کدام GND و کدام VCC است.
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div>
+            <a href="index.html" class="brand" aria-label="CheezCut Home">
+              <img src="static/images/logo.svg" alt="CheezCut logo" />
+              <span>CheezCut</span>
+            </a>
+            <p>Inventor-led presentation website for a focused Gouda wax rind removal concept.</p>
+            <small>Concept website. Not currently an active sales platform.</small>
+          </div>
+          <div>
+            <strong>Navigation</strong>
+            <div class="footer-links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="concept.html">Concept</a>
+              <a href="visuals.html">Visuals</a>
+              <a href="inventor.html">Inventor</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div>
+            <strong>Legal</strong>
+            <div class="footer-links">
+              <a href="privacy.html">Privacy</a>
+              <a href="terms.html">Terms</a>
+              <a href="https://www.linkedin.com/in/amirmobasher/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
